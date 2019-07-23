@@ -127,7 +127,7 @@ class CartVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
     
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 200, height: UIScreen.main.bounds.height/2.5)
+        return CGSize(width: UIScreen.main.bounds.width/1.9, height: UIScreen.main.bounds.height/3)
     }
     
 
