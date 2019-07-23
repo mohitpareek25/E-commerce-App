@@ -54,6 +54,7 @@ class CartVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
         
         self.navigationController?.navigationBar.tintColor = .white
         
+        
     }
     
 
