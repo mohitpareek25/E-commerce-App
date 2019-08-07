@@ -141,12 +141,11 @@
 		DECD589722E6D14400BD9939 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				DEEA3D0F22E1AAC600808B20 /* LoginScreenVC.swift */,
 				DE5141B422D715C100717198 /* BrowseVC.swift */,
 				DECFE97B22D8A245005100E2 /* HotVC.swift */,
 				DED2F6EC22DC93170019922F /* CartVC.swift */,
+				DEEA3D0F22E1AAC600808B20 /* LoginScreenVC.swift */,
 				DEA4E03322D61AD500B0D914 /* ProfileVC.swift */,
-				DE5141C122D7591C00717198 /* ProductDetailsVC.swift */,
 			);
 			name = Screens;
 			sourceTree = "<group>";
@@ -154,6 +153,7 @@
 		DECD589822E6D21E00BD9939 /* CollectionView Cells */ = {
 			isa = PBXGroup;
 			children = (
+				DE5141C122D7591C00717198 /* ProductDetailsVC.swift */,
 				DE5141B022D709D300717198 /* BrowseCollectionViewCell.swift */,
 				DE5141B122D709D300717198 /* BrowseCollectionViewCell.xib */,
 				DECFE97D22D8A7BD005100E2 /* HotCollectionViewCell.swift */,
