@@ -19,7 +19,7 @@ class CartCollectionViewCell: UICollectionViewCell {
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     lazy var id = retrieveIdOfitems(id : "id")
     
-    
+  // declaring delegate variable
     var delegate : updatePriceLabelProtocol?
     
     lazy var currentValue = retrieveNumberOfitems(id: id)
